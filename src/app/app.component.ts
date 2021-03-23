@@ -8,5 +8,5 @@ import { SnotifyService } from 'ng-snotify';
 })
 export class AppComponent {
   constructor(private snotifyService: SnotifyService) {}
-  title = 'personal-portfolio';
+  title = 'portfolio-ng';
 }

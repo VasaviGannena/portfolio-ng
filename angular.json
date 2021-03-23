@@ -131,5 +131,8 @@
       }
     }
   },
-  "defaultProject": "portfolio-ng"
+  "defaultProject": "portfolio-ng",
+  "cli": {
+    "analytics": "91f00c51-4ee9-4f0d-bf5d-0adb6b9f6e6b"
+  }
 }
