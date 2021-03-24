@@ -14,32 +14,32 @@ export class ProfileService {
   skillsData: any = [
     {
       id: '1',
-      skill: 'ANGULAR 6',
+      skill: 'Angular 2',
       progress: '85%',
     },
     {
       id: '2',
-      skill: 'PHP/CODEIGNITER',
+      skill: 'HTML/CSS',
       progress: '80%',
     },
     {
       id: '3',
-      skill: 'C++',
+      skill: 'Typescript',
       progress: '80%',
     },
     {
       id: '4',
-      skill: 'PYTHON',
+      skill: 'SASS',
       progress: '75%',
     },
     {
       id: '5',
-      skill: 'ADOBE ILLUSTRATOR',
+      skill: 'React',
       progress: '75%',
     },
     {
       id: '6',
-      skill: 'DATA STRUCTURE',
+      skill: 'MongoDB',
       progress: '70%',
     },
   ];
@@ -47,41 +47,41 @@ export class ProfileService {
   educationData: any = [
     {
       id: '1',
-      from_to_year: '2010 - 2014',
-      education: 'Bachelors Degree',
-      stream: 'Bachelor of Engineering',
-      institution: 'Jawaharlal Nehru Technological University , India',
+      from_to_year: '2020 - 2021',
+      education: 'Junior web Developer Bootcamp Program',
+      stream: 'Graduate',
+      institution: 'Generation Australia, Australia',
     },
     {
       id: '2',
-      from_to_year: '2010 - 2008',
-      education: 'Higher Secondary',
-      stream: 'Science and Mathematics',
-      institution: 'Narayana Jr.college ,India',
+      from_to_year: '2019 - 2019',
+      education: 'GET INTO TECH Program',
+      stream: 'HTML,CSS and Wordpress',
+      institution: 'Inco Australia, Australia',
     },
     {
       id: '3',
-      from_to_year: '2007 - 2008',
-      education: 'High School',
-      stream: 'Science and Mathematics',
-      institution: 'Sasi E.M School, India',
+      from_to_year: '2010 - 2014',
+      education: 'Bachelors Degree',
+      stream: 'Bachelor of Technology',
+      institution: 'Jawaharlal Nehru Technological University , India',
     },
   ];
 
   exprienceData: any = [
     {
       id: '1',
-      from_to_month_year: 'JUNE 2018 - AUGUST 2018',
-      organization: 'Your creative Agency',
-      designation: 'Internship',
+      from_to_month_year: 'Nov 2020 - Present',
+      organization: 'Code for Australia',
+      designation: 'Junior Web Developer',
       details: `Created fully functional project for <strong>WittyFeed<\/strong>.'
-     },
+},
     {
       'id': '2',
-      'from_to_month_year': 'july 2015 -  oct 2019',
-      'organization': 'TechSperts Software Solutions',
-      'designation': 'Software Engineer',
-      'details': 'Designed the Official Website of the <strong>INDUSTRY <\/strong>,A publisher Dashboard was created using <strong>Angular , CodeIgniter , Rest API and JWT (Json Web Token).
+      'from_to_month_year': 'Oct 2019 -  Dec 2019',
+      'organization': 'Your creative Agency',
+      'designation': 'Software Tester',
+      'details': 'Developed the Official Website of the <strong>INDUSTRY <\/strong>,A publisher Dashboard was created using <strong>Angular , CodeIgniter , Rest API and JWT (Json Web Token).
       <\/strong> It involves multiple modules like Analytics, Stories,Payments.
       Another project was Influencer admin Dashboard which has features like app approval`,
     },

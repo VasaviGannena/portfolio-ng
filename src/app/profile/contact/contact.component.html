@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <div class="section" id="contact">
   <div class="cc-contact-information" style="background-image: url('assets/images/contact.jpg');">
     <div class="container">
@@ -9,7 +10,7 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="card-body">
-                    <form name="form" (ngSubmit)="f.form.valid ; f.resetForm()" #f="ngForm" novalidate>
+                    <form name="form" (ngsubmit)="f.form.valid ; f.resetForm()" #f="ngForm" novalidate>
                       <div class="p pb-3">
                         <strong>Feel free to contact me </strong>
                       </div>
@@ -17,7 +18,7 @@
                         <div class="col">
                           <div class="input-group">
                             <span class="input-group-addon">
-                              <i class="fa fa-user-circle"></i>
+                              <em class="fa fa-user-circle"></em>
                             </span>
                             <input class="form-control" type="text" name="name" placeholder="Name"
                               [(ngModel)]="model.name" #name="ngModel"
@@ -29,7 +30,7 @@
                         <div class="col">
                           <div class="input-group">
                             <span class="input-group-addon">
-                              <i class="fa fa-file-text"></i>
+                              <em class="fa fa-file-text"></em>
                             </span>
                             <input class="form-control" type="text" name="subject" placeholder="Subject"
                               [(ngModel)]="model.subject" #subject="ngModel"
@@ -41,7 +42,7 @@
                         <div class="col">
                           <div class="input-group">
                             <span class="input-group-addon">
-                              <i class="fa fa-envelope"></i>
+                              <em class="fa fa-envelope"></em>
                             </span>
                             <input class="form-control" type="text" name="email" placeholder="E-mail"
                               [(ngModel)]="model.email" #email="ngModel"
